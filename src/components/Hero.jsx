@@ -103,19 +103,17 @@ const Hero = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
+            initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            className="hidden md:block relative"
+            transition={{ duration: 0.5 }}
+            className="relative w-64 h-64 mx-auto mb-8 md:mb-0 md:w-96 md:h-96"
           >
-            <div className="w-80 h-80 mx-auto relative">
-              <div className="absolute inset-0 bg-blue-500/20 rounded-full filter blur-2xl"></div>
-              <img
-                src={profileImage}
-                alt="Sheraphine Shovan M"
-                className="rounded-full w-full h-full object-cover relative z-10 border-4 border-blue-600/50"
-              />
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+            <img
+              src="/profile-photo.jpg"
+              alt="Sheraphine Shovan"
+              className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-xl"
+            />
           </motion.div>
         </div>
       </div>
