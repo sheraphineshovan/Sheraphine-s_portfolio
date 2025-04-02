@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, Close } from '@mui/icons-material';
+import { motion } from 'framer-motion';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,12 +44,22 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <button
-            onClick={() => scrollToSection('hero')}
-            className="text-xl font-bold text-gradient cursor-pointer"
+                   <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex items-center space-x-2"
           >
-            Sheraphine Shovan
-          </button>
+            <img
+              src="/favicon.png"
+              alt="Logo"
+              className="w-8 h-8 rounded-full"
+              onClick={() => scrollToSection('hero')}
+            />
+            <span className="text-xl font-bold text-gray-800 dark:text-white">
+               Sheraphine Shovan
+            </span>
+          </motion.div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
