@@ -69,7 +69,7 @@ const Projects = () => {
           className="heading-primary text-center mb-8"
           
         >
-          <span className=" font-bold text-4xl">Featured</span>
+          <span className=" font-bold text-4xl">Featured </span>
          <span className="text-gradient font-bold text-4xl">Projects</span>
         </motion.h2>
         <motion.p
