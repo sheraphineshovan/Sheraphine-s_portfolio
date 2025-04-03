@@ -8,21 +8,21 @@ const Certificates = () => {
       issuer: "Amazon Web Services",
       date: "2025",
       image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      verificationLink: "https://drive.google.com/file/d/1iMhd2S-r3d61rBOWYQSmKQsixt_HfBdc/view?usp=sharing"
+      verificationLink: "https://drive.google.com/file/d/1ena3DSeFYsZU5aM44AlD3FEe3jJwnOe4/view?usp=sharing"
     },
     {
       title: "Post Graduate Program in Data Analytics and Machine Learning",
       issuer: "Imarticus Learning",
       date: "2024",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      verificationLink: "https://drive.google.com/file/d/1UHq7heTecOEytmnqdah_dr_MqSqpL9bD/view?usp=sharing"
+      verificationLink: "https://drive.google.com/file/d/1tCDj5Lg169vs_oZe4Ds4mJpqWy9pRMgR/view?usp=sharing"
     },
     {
       title: "SQL (Intermediate) with Gold Badge",
       issuer: "HackerRank",
       date: "2024",
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      verificationLink: "https://drive.google.com/file/d/1ena3DSeFYsZU5aM44AlD3FEe3jJwnOe4/view?usp=sharing"
+      verificationLink: "https://drive.google.com/file/d/1iMhd2S-r3d61rBOWYQSmKQsixt_HfBdc/view?usp=sharing"
     }
   ];
 
